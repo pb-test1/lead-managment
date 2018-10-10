@@ -4,7 +4,8 @@
   "description": "Test app for zapier.",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "export NODE_ENV=production && node app.js",
+    "start:dev": "node app.js"
   },
   "author": "",
   "license": "ISC",
