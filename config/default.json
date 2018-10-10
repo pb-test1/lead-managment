@@ -1,0 +1,14 @@
+{
+	"env": "local",
+	"appName": "Lead Management",
+	"host": "localhost",
+	"port": 4100,
+	"db": {
+		"protocol": "mongodb",
+		"host": "localhost",
+		"port": 27017,
+		"dbName": "lead_management",
+		"username": "",
+		"password": ""
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"env": "production",
+	"appName": "Lead Management",
+	"host": "localhost",
+	"port": 3000,
+	"db": {
+		"protocol": "mongodb",
+		"host": "localhost",
+		"port": 27017,
+		"dbName": "dbName",
+		"username": "",
+		"password": ""
+	}
+}
