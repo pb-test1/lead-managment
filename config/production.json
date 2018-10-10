@@ -1,7 +1,7 @@
 {
 	"env": "production",
 	"appName": "Lead Management",
-	"host": "test-lead-management.herokuapp.com",
+	"host": "https://test-lead-management.herokuapp.com",
 	"port": 80,
 	"db": {
 		"protocol": "mongodb",
