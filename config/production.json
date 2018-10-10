@@ -2,7 +2,7 @@
 	"env": "production",
 	"appName": "Lead Management",
 	"host": "localhost",
-	"port": 80,
+	"port": 3001,
 	"db": {
 		"protocol": "mongodb",
 		"host": "ds127293.mlab.com",
