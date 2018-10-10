@@ -12,7 +12,13 @@ const leads = require('./routes/leads');
 const app = express();
 
 const dbc = config.db;
-mongoose.connect(dbc.protocol + '://' + dbc.host + ':' + dbc.port + '/' + dbc.dbName);
+if(config.env === 'local'){
+	mongoose.connect(dbc.protocol + '://' + dbc.host + ':' + dbc.port + '/' + dbc.dbName);	
+}else{
+	connectionStr = dbc.protocol + '://' + dbc.username + ':' + dbc.password + '@' + dbc.host + ':' + dbc.port + '/' + dbc.dbName;
+	console.log(connectionStr);
+	mongoose.connect(connectionStr);
+}
 
 // Setting the view engine
 app.set('view engine', 'pug');

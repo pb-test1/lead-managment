@@ -5,10 +5,10 @@
 	"port": 3000,
 	"db": {
 		"protocol": "mongodb",
-		"host": "localhost",
-		"port": 27017,
-		"dbName": "dbName",
-		"username": "",
-		"password": ""
+		"host": "ds127293.mlab.com",
+		"port": 27293,
+		"dbName": "lead_management",
+		"username": "pbansal",
+		"password": "46804680I"
 	}
 }
